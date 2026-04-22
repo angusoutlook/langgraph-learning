@@ -1,0 +1,52 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node / Frontend
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# LangGraph / local runtime
+.langgraph_api/
+
+# Logs
+*.log
+logs/
+
+# Keep projects folder clean from local artifacts
+projects/**/.env
+projects/**/.env.*
+!projects/**/.env.example
+projects/**/node_modules/
+projects/**/.next/
+projects/**/dist/
+projects/**/build/
+projects/**/coverage/
+projects/**/.turbo/
+projects/**/.cache/
