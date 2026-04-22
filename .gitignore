@@ -51,4 +51,3 @@ projects/**/coverage/
 projects/**/.turbo/
 projects/**/.cache/
 projects/**/output/
-projects/agent-chat-ui/
